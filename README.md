@@ -8,7 +8,7 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 
 ## 다운로드
 
-**ChatPet 1.2.15를 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
+**ChatPet 1.2.16을 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
 
 | 파일 | 용도 |
 |---|---|
@@ -17,6 +17,14 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 | [ChatPet_Portable.zip](https://github.com/Yoodaddy0311/chatpet-releases/releases/latest/download/ChatPet_Portable.zip) | 바로 실행형 ZIP 패키지 |
 
 [변경 사항과 모든 버전](https://github.com/Yoodaddy0311/chatpet-releases/releases)
+
+## Google 로그인 → Pet 선택
+
+앱에 로그인 설정을 포함해 새 PC에서도 JSON 파일 선택 없이 Google 로그인을 시작합니다. 첫 연결에 성공하면 Pet을 선택할 수 있습니다. 로그인 전에 테스트 메시지가 생성되던 문제도 수정했습니다.
+
+**현재 Google 연결은 등록된 테스트 계정에 한정됩니다.** 일반 사용자 공개 연결은 Google 검증을 준비 중입니다. 파일 다운로드 공개와 Google 계정 이용 승인은 별개이며, 회사의 관리자 정책에 따라 연결이 제한될 수 있습니다.
+
+[개인정보처리방침](https://yoodaddy0311.github.io/chatpet-releases/privacy.html)
 
 ## 숨긴 스페이스 알림 제외
 
