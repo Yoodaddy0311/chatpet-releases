@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>개인정보처리방침 · ChatPet</title>
+<meta name="description" content="ChatPet이 Google Chat 정보와 로그인 정보를 사용하는 방법을 안내합니다.">
+<link rel="icon" href="assets/ChatPet.ico">
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f6f4ee;color:#242225;font:16px/1.85 system-ui,"Malgun Gothic",sans-serif;word-break:keep-all}main{max-width:850px;margin:auto;padding:48px 28px 80px}.brand{display:inline-flex;align-items:center;gap:10px;font-size:24px;font-weight:800;color:#242225;text-decoration:none}.brand img{width:38px;height:38px}h1{font-size:clamp(30px,6vw,42px);line-height:1.3;letter-spacing:-1.5px;margin:44px 0 10px}h2{font-size:22px;margin:34px 0 12px}p,ul{margin:12px 0}a{color:#5436bb;text-underline-offset:4px}a:focus-visible{outline:3px solid #6143ce;outline-offset:4px}.date{color:#706b77}.summary{margin:28px 0;padding:22px 26px;background:white;border:1px solid #dedbe1;border-radius:18px}.summary p{margin:0}footer{margin-top:40px;padding-top:24px;border-top:1px solid #dedbe1;font-size:14px}
+</style>
+</head>
+<body><main>
+<a class="brand" href="./"><img src="assets/ChatPet.ico" alt="">ChatPet</a>
+<h1>개인정보처리방침</h1>
+<p class="date">시행일: 2026년 9월 11일</p>
+<div class="summary"><p>ChatPet은 Google Chat의 알림 상태를 화면 속 Pet으로 알려주는 Windows 앱입니다. 메시지 본문을 저장하지 않으며, Google 계정 비밀번호를 받거나 보관하지 않습니다.</p></div>
+<h2>1. 접근하는 정보와 목적</h2>
+<p>사용자가 Google 로그인과 권한 동의를 완료한 뒤 다음 정보를 사용합니다.</p>
+<ul>
+<li><strong>계정 식별 정보:</strong> Google이 검증한 계정 식별자를 사용해 로그인한 계정을 확인하고 계정별 알림 상태가 섞이지 않게 합니다.</li>
+<li><strong>대화·스페이스 정보:</strong> 대화 식별자, 이름, 종류를 사용해 알림 대상과 스페이스별 설정을 관리합니다.</li>
+<li><strong>메시지 메타데이터와 읽음 정보:</strong> 메시지 식별자, 생성 시각, 멘션 여부, 읽음 상태를 사용해 새 알림·미확인 건수와 Pet의 반응을 계산하고 중복 알림을 줄입니다.</li>
+</ul>
+<p>Google 권한 화면에는 메시지 콘텐츠를 볼 수 있는 권한이 표시됩니다. 현재 알림 검색 API 사용에 필요한 권한이며, ChatPet은 요청 응답을 알림에 필요한 메타데이터로 제한하고 메시지 본문이나 첨부파일 내용을 저장하지 않습니다. 메시지를 작성·수정·삭제하거나 Google Chat에서 읽음 처리하지 않습니다.</p>
+<h2>2. 저장 위치와 보호</h2>
+<p>Pet 설정, 대화별 알림 규칙과 알림 상태는 사용자의 PC에 저장됩니다. 로그인 유지에 필요한 credential은 현재 Windows 사용자 계정에 연결된 Windows DPAPI로 보호합니다. access token은 메모리에서 사용합니다. Google 계정 비밀번호는 Google 로그인 화면에서 직접 입력하며 ChatPet이 수집하지 않습니다.</p>
+<p>일반 설정·알림 상태 DB 전체가 암호화되는 것은 아닙니다. PC와 Windows 계정에 접근할 수 있는 사람에게 로컬 정보가 노출되지 않도록 기기를 관리해 주세요. 상태 복구를 위한 로컬 백업이 남을 수 있습니다.</p>
+<h2>3. 외부 통신과 공유</h2>
+<p>앱은 로그인과 알림 조회를 위해 Google 인증 및 Google Chat API와 통신합니다. 업데이트 확인과 파일 다운로드에는 GitHub를 사용합니다. 업데이트 요청에 Google 계정 식별자, 메시지 또는 로그인 token을 첨부하지 않습니다.</p>
+<p>ChatPet 운영자가 Google Chat 데이터를 모으는 별도 서버는 운영하지 않습니다. 광고, 데이터 판매, AI 모델 학습에 Google 사용자 데이터를 사용하지 않습니다. Google과 GitHub는 통신 과정의 IP 주소 등 서비스 운영 정보를 각자의 방침에 따라 처리할 수 있습니다. 홈페이지의 글꼴을 불러올 때는 Google Fonts와 통신할 수 있습니다.</p>
+<p>ChatPet의 Google API에서 받은 정보 사용 및 다른 앱으로의 전송은 제한적 사용 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>를 준수합니다.</p>
+<h2>4. 보관과 삭제, 연결 해제</h2>
+<p>알림 상태와 설정은 재실행 시 복구를 위해 로컬에 보관합니다. 처리된 일부 기록은 주기적으로 정리되지만, 아직 필요한 미확인 상태와 설정은 계속 남을 수 있습니다.</p>
+<p>설정 → 일반 → 연결 관리 → 연결 해제를 선택하면 해당 PC의 활성 로그인 credential을 삭제하고 연결을 해제합니다. <a href="https://myaccount.google.com/connections">Google 계정의 외부 연결 관리</a>에서도 ChatPet의 접근 권한을 취소할 수 있습니다. 연결 해제는 이미 저장한 모든 로컬 알림 기록이나 백업의 삭제를 뜻하지 않습니다.</p>
+<p>로컬 정보를 모두 제거하려면 ChatPet을 종료한 뒤 Windows 실행 창에서 <code>%LOCALAPPDATA%\ChatPet</code> 폴더를 열고 해당 폴더와 사용자가 별도로 만든 백업을 삭제하세요. 이 작업은 Pet 설정과 로컬 상태도 제거하며 Google Chat의 원본 메시지는 삭제하지 않습니다.</p>
+<h2>5. 사용자 선택과 문의</h2>
+<p>로그인 여부, Pet, 알림 범위와 자동 숨김은 사용자가 선택할 수 있습니다. Google 계정 및 회사의 관리자 정책에 따라 승인이 제한될 수 있습니다.</p>
+<p>운영·개인정보 문의: <a href="https://github.com/Yoodaddy0311/chatpet-releases/issues">ChatPet GitHub 문의</a>. 문의 시 비밀번호, 인증 token, 메시지 본문이나 개인정보가 포함된 로그를 보내지 마세요.</p>
+<h2>6. 변경 안내</h2>
+<p>기능이나 정보 처리 방식이 바뀌면 이 페이지의 시행일과 내용을 갱신하고 필요한 변경 사항을 앱 또는 배포 안내에 알립니다.</p>
+<footer><a href="./">ChatPet 홈페이지로 돌아가기</a><p>ChatPet은 Google의 공식 제품이 아닙니다.</p></footer>
+</main></body></html>
