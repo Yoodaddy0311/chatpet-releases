@@ -8,7 +8,7 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 
 ## 다운로드
 
-**ChatPet 1.2.14를 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
+**ChatPet 1.2.15를 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
 
 | 파일 | 용도 |
 |---|---|
@@ -17,6 +17,12 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 | [ChatPet_Portable.zip](https://github.com/Yoodaddy0311/chatpet-releases/releases/latest/download/ChatPet_Portable.zip) | 바로 실행형 ZIP 패키지 |
 
 [변경 사항과 모든 버전](https://github.com/Yoodaddy0311/chatpet-releases/releases)
+
+## 숨긴 스페이스 알림 제외
+
+설정 → 스페이스 관리에서 **숨긴 스페이스 알림 제외**를 켜고, 제외할 스페이스의 **숨김 목록에 포함**을 선택한 뒤 저장하세요. 기본값은 켜짐이며, 옵션을 끄면 원래 알림 범위로 돌아갑니다. 목록은 계정별로 저장됩니다.
+
+**Google Chat의 숨김 목록과 자동으로 동기화되지 않습니다.** ChatPet에서 직접 지정하는 목록이며, Google Chat의 설정이나 메시지 읽음 상태를 변경하지 않습니다. 개인 DM과 그룹 대화의 기존 알림은 유지됩니다.
 
 ## 업데이트
 
