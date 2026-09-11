@@ -4,6 +4,8 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 
 이 저장소는 ChatPet의 실행 파일, 설치 프로그램, 변경 사항을 제공하는 공개 배포 공간입니다.
 
+[ChatPet 홈페이지 — Pet 만나보기](https://yoodaddy0311.github.io/chatpet-releases/)
+
 ## 다운로드
 
 현재 첫 공개 배포를 준비하고 있습니다. 아직 이 저장소에 다운로드 파일이나 자동 업데이트 피드가 게시되지 않았습니다.
