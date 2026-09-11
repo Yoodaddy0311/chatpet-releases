@@ -8,7 +8,7 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 
 ## 다운로드
 
-**ChatPet 1.2.17을 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
+**ChatPet 1.2.18을 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
 
 | 파일 | 용도 |
 |---|---|
@@ -17,6 +17,10 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 | [ChatPet_Portable.zip](https://github.com/Yoodaddy0311/chatpet-releases/releases/latest/download/ChatPet_Portable.zip) | 바로 실행형 ZIP 패키지 |
 
 [변경 사항과 모든 버전](https://github.com/Yoodaddy0311/chatpet-releases/releases)
+
+## 읽은 메시지가 미확인으로 남는 문제 수정
+
+검색에서 안 읽음으로 남은 스레드 답글은 해당 스레드의 실제 읽음 시각을 추가 확인합니다. 요청한 시간·대화 범위 밖의 검색 결과도 제외해 과거 메시지가 다시 알림에 섞이지 않도록 했습니다. 일반 대화와 기존 알림 설정은 유지합니다.
 
 ## 수신과 읽음 확인 개선
 
