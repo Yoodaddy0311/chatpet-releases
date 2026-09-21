@@ -8,7 +8,7 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 
 ## 다운로드
 
-**ChatPet 1.2.24를 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
+**ChatPet 1.2.25를 공개했습니다.** Windows 64비트용이며 GitHub 로그인 없이 받을 수 있습니다.
 
 | 파일 | 용도 |
 |---|---|
@@ -17,6 +17,12 @@ Google Chat의 새 메시지를 데스크톱 Pet으로 알려주는 Windows 앱�
 | [ChatPet_Portable.zip](https://github.com/Yoodaddy0311/chatpet-releases/releases/latest/download/ChatPet_Portable.zip) | 바로 실행형 ZIP 패키지 |
 
 [변경 사항과 모든 버전](https://github.com/Yoodaddy0311/chatpet-releases/releases)
+
+## 스레드 답글 알림 기본 제외
+
+스레드 답글은 기본적으로 새 알림·미확인 숫자·Pet 움직임에서 제외합니다. Google Chat 화면에는 표시되지 않는 답글 때문에 Pet에 미확인 숫자가 남는 혼란을 줄였습니다. 일반 DM·그룹 대화·스페이스의 새 본문 메시지는 기존 설정대로 알립니다.
+
+필요하면 **설정 → 알림 → 나를 멘션한 스레드 답글만 알림**을 켜세요. 기본값은 꺼짐이며, 켜면 나를 멘션한 답글만 포함합니다. 기존에 남은 답글도 다음 동기화에서 재분류하며 Google 메시지의 읽음 상태는 변경하지 않습니다.
 
 ## 읽은 뒤 원래 자리까지 걸어서 복귀
 
